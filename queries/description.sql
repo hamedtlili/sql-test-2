@@ -1,0 +1,7 @@
+SELECT TOP 10 * FROM netflix_titles;
+
+SELECT COUNT(*) FROM netflix_titles;
+
+SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'netflix_titles';
